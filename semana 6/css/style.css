@@ -1,0 +1,13 @@
+body {
+    background: #ead3a9;
+    color: #FA8072;
+}  
+.titulos {
+    font-size: 30pt;
+}
+.cabecera {
+    color: #ef7365;
+    height: 400px;
+    width: 600px;
+    font-size: 20px;
+}

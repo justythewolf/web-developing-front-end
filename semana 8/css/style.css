@@ -1,0 +1,17 @@
+body {
+    background: #fcf3e1;
+    color: #fe988d;
+}  
+.titulos {
+    font-size: 30pt;
+}
+.cabecera {
+    color: #ef7365;
+    height: 400px;
+    width: 600px;
+    font-size: 20px;
+}
+.titulos2 {
+    font-size: 30pt;
+    color: blue;
+}

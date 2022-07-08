@@ -1,0 +1,68 @@
+body {
+    background-color: aqua;
+    background-attachment: fixed;
+}
+
+#titulo1 {
+    font-size: 16pt;
+    color: hotpink;
+    font-family: "Times New Roman";
+    background-color: black;
+    margin: 50px 600px 25px 600px;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: grey;
+    box-shadow: 0px 10px 15px 0px black;
+    text-align: center;
+} 
+#div1 {
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    background-color: darkslategrey;
+    float: right;
+    box-shadow: 0px 5px 10px 0px black;
+    height: 140px;
+    width: 280px;
+} 
+#text1 {
+    color: hotpink;
+    text-align: center; 
+} 
+#div2 {
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    background-color: darkslategrey;
+    float: left;
+    box-shadow: 0px 5px 10px 0px black;
+    height: 140px;
+    width: 280px; 
+} 
+#text2 {
+    color: hotpink;
+    text-align: center; 
+} 
+#div3 {
+    border-radius: 10px;
+    border-color: grey;
+    border-style: dashed;
+    background-color: black;
+    box-shadow: 0px 5px 10px 0px black; 
+    width: 1300px;
+    height: 140px;
+    margin: 0px 300px 0px 300px; 
+} 
+#text3 {
+    color: hotpink;
+    text-align: center;
+
+} 
+#maindiv { 
+    /* indica el eje principal */
+    flex-direction: column;
+    /* esto hace que empiece a ordenar todo desde el centro y segun cual sea el valor lo ordenara dede la izquierda o la derecha, etc */
+    justify-content: center; 
+    /* alinea los contenedores hijos dependiendo la direccion elegida */
+    align-items: center;
+}

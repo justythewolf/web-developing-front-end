@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+    background-attachment:  fixed;
+}
+#text1 {
+    color: hotpink; 
+    font-size: 14pt;
+    font-family: "Times New Roman";
+    
+} 
+#div1 {
+    background-color: black; 
+    height: 300px; 
+    width: 300px; 
+    border-radius: 20px;
+    border-style: groove;
+    border-color: grey; 
+    padding: 10px; 
+} 
+#aside {
+    background-color: black;
+}

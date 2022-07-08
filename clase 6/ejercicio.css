@@ -1,0 +1,50 @@
+body {
+    background-image: url("fondo.jpg"); 
+    background-attachment: fixed; 
+    background-size: 1920px 1080px;
+}
+#cabecera {
+    height: 100px;
+    display: block;
+    background-color: black;
+    border-color: darkslategrey;
+    border-style: groove;
+    border-radius: 15px;
+} 
+#text1 {
+    color: hotpink;
+    text-align: center;
+} 
+#menu {
+    background-color: black;
+    width: 10em;
+    border-style: groove;
+    border-color: darkslategrey; 
+    float: left; 
+    height: 700px;
+} 
+#text2 {
+    color: hotpink;
+    text-align: center;
+} 
+#cuerpo {
+    background-color: black;
+    border-color: darkslategrey;
+    border-style: groove; 
+    height: 700px;
+} 
+#text3 {
+    color: hotpink;
+    text-align: center;
+} 
+#pie {
+    clear: left;
+    height: 12%;
+    background-color: black;
+    border-color: darkslategrey;
+    border-style: groove; 
+} 
+#text4 {
+    color: hotpink;
+    text-align: center;
+}
